@@ -26,11 +26,11 @@ async function Navbar() {
           </div>
 
           {/*Navbar components*/}
-          {/* {userProfile?.name && (
+          {userProfile?.name && (
             <span className="text-[14px] text-gray-600 dark:text-gray-300">
               {`Hello, ${userProfile?.name.split(" ")[0]}`}
             </span>
-          )} */}
+          )}
 
           <div className="hidden md:flex items-center space-x-4">
             <Button variant="ghost" className="flex items-center gap-2" asChild>

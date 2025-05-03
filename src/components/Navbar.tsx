@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Button } from "./ui/button";
 import { Dog, HomeIcon, LogIn, LogInIcon, LogOut, Sprout } from "lucide-react";
-// import ModeToggle from "./ModeTogggle";
+import ModeToggle from "./ModeToggle";
 // import { stackServerApp } from "@/stack";
 // import { getUserDetails } from "@/actions/user.action";
 // import { UserButton } from "@stackframe/stack";
@@ -42,6 +42,7 @@ async function Navbar() {
             </Button>
 
             {/* <ModeToggle /> */}
+            <ModeToggle />
           </div>
         </div>
       </div>
